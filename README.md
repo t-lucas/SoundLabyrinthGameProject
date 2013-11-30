@@ -1,1 +1,1 @@
-hello world
+Le projet est la création d'un mini jeu de labyrinthe où les informations visuelles sont remplacée par des informations sonore.
