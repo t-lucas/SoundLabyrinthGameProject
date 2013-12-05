@@ -80,6 +80,8 @@ function draw() {
 
   ctx.beginPath();
   ctx.fillStyle = visionRadial(game.p1.px, game.p1.py);
+  
+  //aura de lumière
   ctx.rect(game.p1.px - 50, game.p1.py - 50, 100, 100);
   ctx.fill();
 
@@ -89,6 +91,7 @@ function draw() {
 
   ctx.beginPath();
   ctx.fillStyle = visionRadial(game.p2.px, game.p2.py);
+  //taille du rectangle noir
   ctx.rect(0, 0, width, height);
   ctx.fill();
 
